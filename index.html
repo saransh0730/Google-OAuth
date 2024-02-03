@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/google.css' rel='stylesheet'>    
     <link rel="stylesheet" href="./style.css">
     <title>Login</title>
@@ -15,7 +16,9 @@
             <p id="para"></p>
         <input type="email" placeholder="Enter your email">
         <input type="password" placeholder="Enter your password">
-        <button id="btn" onclick="SignIn()"><img src="./Images/google.png" alt="">Sign Up with Google</button>
+        <i class="far fa-eye icon" id="togglePassword"></i>
+        <button id="btn" onclick="SignIn()"><img src="./Images/google.png" alt="">Continue with Google</button>
+        <button id="fbbtn" onclick="SignUpWithFacebook()"><img src="./Images/facebook.png" alt="">Continue with Facebook</button>
         <!-- <button id="btn">Click</button> -->
     </div>
     </div>

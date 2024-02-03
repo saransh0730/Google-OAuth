@@ -45,7 +45,7 @@ body{
 .creds button{
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    width: 24%;
+    width: 26%;
     text-align: end;
     border: 1px solid black;
     border-radius: 5px;
@@ -83,8 +83,15 @@ body{
     position: absolute;
     left: 17px;
 }
-
-
+#fbbtn img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 17px;
+}
+#fbbtn:hover{
+    background-color: rgb(45, 45, 85);
+}
 
 
 
