@@ -36,8 +36,8 @@ function SignUpWithFacebook() {
 
     var params = {
         "client_id": "1145388830231784",
-        "redirect_uri": "http://127.0.0.1:5500/profile.html",
-        "response_type": "token",
+        "redirect_uri": "https://127.0.0.1:5500/profile.html",
+        "response_type": "code",
         "scope": "email",
         "include_granted_scopes": 'true',
         "state": "pass-through-value"
